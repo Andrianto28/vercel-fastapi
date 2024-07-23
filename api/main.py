@@ -12,14 +12,14 @@ from uuid import uuid4
 import json
 from langchain.chat_models import ChatOpenAI
 from langchain.chains.question_answering import load_qa_chain
+from dotenv import load_dotenv
 
+load_dotenv()
 app = FastAPI()
 
 @app.get("/")
 async def heatlt_check():
     return "the health is good"
-
-os.environ["OPENAI_API_KEY"] = "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"
 
 # Initialize the model and embeddings
 model_name = "all-MiniLM-L6-v2"
