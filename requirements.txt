@@ -1,2 +1,9 @@
 fastapi
 uvicorn
+fastapi
+pydantic
+langchain
+sentence-transformers
+torch
+uvicorn
+shutil
