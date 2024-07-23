@@ -6,4 +6,3 @@ langchain
 sentence-transformers
 torch
 uvicorn
-shutil
